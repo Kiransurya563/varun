@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <div class="container" >
+        <header>Registration</header>
+
+        <form  action="update">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" id="fullname" name="fullname" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" id="dateofbirth" name="dateofbirth" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" id="email" name="email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" id="mobilenumber" name="mobilenumber" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select  id="gender" name="gender" required>
+                                <option disabled selected value="None">Select gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" id="fathername" name="fathername" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Place of Birth</label>
+                            <input type="text" placeholder="Enter your place of birth" id="placeofbirth" name="placeofbirth" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter your Nationality" id="nationality" name="nationality" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Blood Group</label>
+                            <select  id="bloodgroup" name="bloodgroup" required>
+                                <option disabled selected value="None">Select Blood Group</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                                <option value="other">Others</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Passport Number</label>
+                            <input type="text" placeholder="Enter your Passport number" id="passportnumber" name="passportnumber" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Aadhar Number</label>
+                            <input type="text" placeholder="Enter your Aadhar number" id="aadharnumber" name="aadharnumber" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Pan card Number</label>
+                            <input type="text" placeholder="Enter your Pan card number" id="pancardnumbar" name="pancardnumber" required>
+                        </div>
+                        
+                    </div>
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>House Name/No</label>
+                            <input type="text" placeholder="enter  the house name/no" id="housename" name="housename" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Street</label>
+                            <input type="text" placeholder="Enter Street " id="street" name="street" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>area</label>
+                            <input type="text" placeholder="Enter area" id="area" name="area" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>city</label>
+                            <input type="text" placeholder="Enter the city" id="city" name="city" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter State" id="state" name="state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Pincode</label>
+                            <input type="number" placeholder="Enter Pincode" id="pincode" name="pincode" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Qualification</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Qualification Level 1</label>
+                            <select id="qualification1" name="qualification1" required>
+                                <option disabled selected value="None">select the Qualification</option>
+                                <option value="10th">10th</option>
+                                <option value="12th">12th</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Percentage</label>
+                            <input type="number" placeholder="Enter Percentage" id="percentage1" name="percentage1" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Upload the marks sheet</label>
+                            <input type="file" placeholder="Enter marks sheet" id="marksheet1" name="marksheet1" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Qualification Level 2</label>
+                            <select id="qualification2" name="qualification2" required>
+                                <option disabled selected value="None">select the Qualification</option>
+                                <option value="12th">12th</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Percentage</label>
+                            <input type="number" placeholder="Enter Percentage" id="percentage2" name="percentage2" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Upload the marks sheet</label>
+                            <input type="file" placeholder="Enter marks sheet" id="marksheet2" name="marksheet2" required>
+                        </div>
+                        
+
+
+                        
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit" >
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
